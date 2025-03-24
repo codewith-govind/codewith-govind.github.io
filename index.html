@@ -1369,7 +1369,7 @@
           <section class="contact-form">
             <h3 class="h3 form-title">Contact Form</h3>
 
-            <form class="form"  onsubmit="sendMessage(event)" data-form>
+            <form class="form"   data-form>
               <div class="input-wrapper">
                 <input
                   type="text"
@@ -1401,7 +1401,7 @@
                 data-form-input
               ></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
+              <button class="form-btn" type="submit" disabled data-form-btn onclick="sendMessage(event)">
                 <ion-icon name="paper-plane"></ion-icon>
                 <span>Send Message</span>
               </button>
